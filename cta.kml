@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="orangeLine">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinkLine">
+      <LineStyle>
+        <color>ffff33ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>ff66a1cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>ffcc00cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="yellowLine">
+      <LineStyle>
+        <color>ff61f2f2</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+
+			79.88338999935702,
+			6.882581012274834,
+			0 79.8834011725759,6.882698182612649,0 79.88341038124456,6.882810783663357,0 79.88341773409427,6.882903200024247,0 79.88342865375147,6.883016968711948,0 79.88343410167425,6.883123485261047,0 79.88343228552209,6.88323181957408,0 79.88343046950583,6.883331116229072,0 79.88340336027653,6.88347306093046,0 79.88339623293284,6.883562526726928,0 79.88338546919385,6.883612386287964,0 79.88334982235955,6.883683846724026,0 79.88331119879398,6.883796295404121,0 79.88328138056484,6.883909556814023,0 79.88326594545383,6.884003276770658,0 79.88324565741424,6.884084795804863,0 79.88321434152016,6.884188301431391,0 79.88319403048676,6.884257430498677,0 79.88318659545537,6.884344816639462,0 79.88318140960881,6.884422755452093,0 79.8831617776344,6.88451117412512,0 79.88315497177854,6.884598300782339,0 79.88314190403177,6.884685250447233,0 79.88313246508479,6.884768917307055,0 79.88310459899536,6.884852924283928,0 79.88308577945799,6.884950114972313,0 79.88306537493384,6.885025360519829,0 79.88303235742694,6.885130266942331,0 79.88299780988092,6.885229028837265,0 79.88296338774222,6.885325623034832,0 79.88292743037951,6.88539081298963,0 79.88288470354338,6.885509866328483,0 79.88285628158252,6.885596141201243,0 79.88282936238362,6.885691609858401,0 79.88280878153147,6.885774999070673,0 79.88280503312305,6.885860833631392,0 
+		</coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>
